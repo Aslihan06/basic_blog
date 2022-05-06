@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image:
+    linear-gradient(rgba(160, 64, 66, 0.7),
+    rgba(188, 47, 54, 0.7)),
+     url(./bayrak.webp);
+    /* background-size: 100%; */
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  h1{
+      color: rgb(203, 212, 124);
+      font-family: 'Water Brush', cursive;
+      font-size: 45px;
+  }
+  
+  #pic {
+    display: inline-block;
+    vertical-align: top;
+    margin: 20px 20px;
+  }
+  
+  #blog {
+    display: inline-block;
+    color: white;
+  }
+  
+  #title,#article {
+    color: black;
+    width: 500px;
+  }
+  
+  #container {
+    margin: 80px auto;
+    width: 1200px;
+    border: 9px solid rgb(8, 8, 8);
+  }
+  #btn{
+      background-color: rgb(4, 117, 117);
+      width: 100px;
+      height: 40px;
+      cursor: pointer;
+      border: 3px;
+      border-radius: 15px;
+      font-size: 15px;
+      
+      
+  }
+  #btn:hover{
+      background-color:red ;
+  }
